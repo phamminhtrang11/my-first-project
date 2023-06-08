@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         School school = new School();
         List<Student> class1 = new ArrayList<>();
-        class1.add(new Student("Nguyễn Văn A", "CCCD 1", 15,"Lớp 10A", "Khối 10","Trường A" ));
+        class1.add(new Student("Nguyễn Văn BC", "CCCD 1", 15,"Lớp 10A", "Khối 10","Trường A" ));
         class1.add(new Student("Phạm Văn B", "CCCD 2", 16,"Lớp 11A",  "Khối 11","Trường B"));
         class1.add(new Student("Phạm Thị C", "CCCD 3", 17, "Lớp 12A","Khối 12", "Trường C"));
         school.addClass(class1);
